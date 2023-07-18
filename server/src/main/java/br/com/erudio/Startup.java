@@ -12,6 +12,7 @@ import br.com.erudio.config.FileStorageConfig;
 @EnableConfigurationProperties({
 	FileStorageConfig.class
 })
+
 @EnableAutoConfiguration
 @ComponentScan
 public class Startup {
